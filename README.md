@@ -1,3 +1,23 @@
+DOCUMENTATION:
+
+The website display the avalaible cars with its details and picture. The website allows the customers to rent the car by selecting the date of his own choice , 
+the website first makes sure that if the car is avalaible or according to the dates. The website allows the admin to delete the car from the website, and also can upload a new car for renting it to the customer
+by taking all the details neccessary. 
+
+Frontend is built usig nextjs with typescript and tailwind css 
+
+Rest APIs are used to int4eract with database 
+
+mysql database has been used to stroed the details 
+
+there are 3 tables Cars, customer, and rentals.
+ 
+Rental table has 1:M cars and customers to store the rent details of cars.;
+
+
+
+
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
