@@ -1,5 +1,7 @@
 DOCUMENTATION:
 
+ERD: https://utfs.io/f/63f95030-e9cf-4127-b366-b1eb4e5e5d99_car_rental_erd.JPG
+
 The website display the avalaible cars with its details and picture. The website allows the customers to rent the car by selecting the date of his own choice , 
 the website first makes sure that if the car is avalaible or according to the dates. The website allows the admin to delete the car from the website, and also can upload a new car for renting it to the customer
 by taking all the details neccessary. 
