@@ -25,7 +25,7 @@ export default function detailPage({ params: { id } }: Props) {
                 car_id:id,
                 name:e.target.name.value,
                 phone:e.target.phone.value,
-                rentalDate:e.target.rentalDate.value,
+                rentalDate:e.target.rentDate.value,
                 returnDate:e.target.returnDate.value
             })
         }).then(data => data.json()).then(data => data && alert('Car Rented Successfully'));
